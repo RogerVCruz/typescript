@@ -1,5 +1,3 @@
-import { readlinkSync } from "fs";
-
 const numeros: Array<number> = new Array<number>();
 
 const numeros2: number[] = [];
