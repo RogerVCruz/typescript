@@ -57,8 +57,8 @@ export class Automovel extends Terrestre {
   public visualizar() {
     super.visualizar();
     console.log(`Cor ${this.cor}`);
-    console.log(`Nº de portas: ${this.cor}`);
-    console.log(`Nº da placa: ${this.placa}`);
-    console.log(`Nº de marchas: ${this.marchas}`);
+    console.log(`Nº de portas: ${this._cor}`);
+    console.log(`Nº da placa: ${this._placa}`);
+    console.log(`Nº de marchas: ${this._marchas}`);
   }
 }

@@ -17,6 +17,6 @@ export class Transporte {
     console.log("************************************");
     console.log("Dados do Meio de Transporte");
     console.log("************************************");
-    console.log(`Capacidade: ${this.capacidade}`);
+    console.log(`Capacidade: ${this._capacidade}`);
   }
 }

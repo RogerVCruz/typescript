@@ -28,7 +28,7 @@ export class Terrestre extends Transporte {
 
   public visualizar() {
     super.visualizar();
-    console.log(`Numero de rodas ${this.numeroRodas}`);
-    console.log(`Velocidade ${this.velocidade}`);
+    console.log(`Numero de rodas ${this._numeroRodas}`);
+    console.log(`Velocidade ${this._velocidade}`);
   }
 }
